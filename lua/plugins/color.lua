@@ -1,8 +1,8 @@
 return {
-  -- add gruvbox
+  -- add ondark
   { "navarasu/onedark.nvim" },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load onedark
   {
     "LazyVim/LazyVim",
     opts = {

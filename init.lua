@@ -4,6 +4,8 @@ require("copilot").setup({})
 require("orgmode").setup_ts_grammar()
 require("onedark").setup({
   style = "darker",
+  transparent = true,
 })
 require("onedark").load()
 require("copilot").setup()
+require("lazy").setup({})
