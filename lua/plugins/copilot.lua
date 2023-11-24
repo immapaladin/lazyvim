@@ -5,6 +5,11 @@ return {
     event = "InsertEnter",
     config = function()
       require("copilot").setup({
+        panel = {
+          keymap = {
+            open = "<C-CR>",
+          },
+        },
         suggestion = {
           auto_trigger = true,
         },
